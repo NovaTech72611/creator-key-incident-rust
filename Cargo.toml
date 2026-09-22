@@ -1,0 +1,14 @@
+[package]
+name = "creator-key-incident"
+version = "0.1.0"
+edition = "2021"
+description = "Rotate a creator-commerce key and inspect its incident trail"
+license = "MIT"
+
+[lib]
+name = "creator_key_incident"
+path = "src/creator_incident.rs"
+
+[[bin]]
+name = "creator-key-incident"
+path = "src/incident_cli.rs"
